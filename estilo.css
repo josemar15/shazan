@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body {
+    width: 1024px;
+    margin: auto;
+}
+header{
+    height: 50px;
+    position: relative;
+    background: wheat;
+    margin: 0px 0px 15px 0px;
+}
+section.slide {
+    height: 400px;
+    position: relative;
+    background: #00BD9D;
+}
+nav {
+    height: 50px;
+    position: relative;
+    background: pink;
+    margin: 0px 0px 15px 0px;
+}
+div{
+    width: 161px;
+    height: 217px;
+    position: relative;
+    margin-right: 11px;
+    margin-bottom: 10px;
+    background: wheat; 
+}
+section div:nth-child(1){
+    float: left;
+}
+section div:nth-child(2){
+    float: left;
+}
+section div:nth-child(3){
+    float: left;
+}
+section div:nth-child(4){
+    float: left;
+}
+section div:nth-child(5){
+    float: left;
+}
+section div:nth-child(6){
+    margin: 0px;
+    float: right;
+}
+footer{    
+    height: 50px;
+    margin: auto;
+    position: relative;
+    background: black;
+    clear: both;
+    background: #00B2B2; 
+    background: -webkit-linear-gradient(pink, black); 
+    background: -o-linear-gradient(pink, black);
+    background: -moz-linear-gradient(pink, black);
+    background: linear-gradient(pink, black);
+}
